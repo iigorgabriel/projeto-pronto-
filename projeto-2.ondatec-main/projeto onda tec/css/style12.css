@@ -1,0 +1,83 @@
+/*/estilo da pagina fundamental1.html//*/
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;  
+}
+.container-materias {
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #191919;
+    height: 335px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    color: rgb(20, 22, 90);
+}
+
+.card h4 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+.card p {
+    color: #fcfcfc;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.btn {
+    background-color: rgb(20, 26, 82);
+    color: white;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(20, 22, 90);
+    cursor: pointer;
+    color: white;
+}

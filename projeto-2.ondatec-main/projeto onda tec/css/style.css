@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+html {
+    background-image: url("../img/imgback.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+nav {
+    background-color: #cccccc;
+    opacity: 0.8;
+    margin: 0px 0px 0px 0px;
+    height: 90px;
+    display: flex;
+}
+
+.namenav {
+    margin: 0px;
+    max-height: 20px;
+
+} 
+
+.espnav {
+    width: 200px;
+    height: 200px;
+}
+
+.ex2 {
+    max-width: 50px;
+}
+
+ul {
+    margin: 0px;
+    align-items: flex-end;
+}
+
+body {
+    margin: 0px;
+}
+
+.ondaTT, .tecTT {
+    text-align: center;
+    color: ffffff;
+}
+
+.titulo {
+    margin-top: 100px;
+} 
+
+.ex2 {
+    max-width: 128px;
+    margin: auto;
+    margin: 0px 0px 0px 0px;
+}
+
+.rodape{
+    position: end;
+    color: white;
+    background-color: black;
+}

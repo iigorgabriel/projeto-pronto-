@@ -1,0 +1,123 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style17.css" rel=stylesheet>
+    <title>Portal OndaTec</title>
+</head>
+
+<body>
+    <div id="menu">
+        <link rel="stylesheet" href="css/style13.css">
+        <img src="img/onda.png" alt="logo onda tec">
+        <a href="index.html">
+            <div class="item">Inicio</div>
+        </a>
+        <a href="monitoria.html">
+            <div class="item">monitoria</div>
+        </a>
+        <a href="apoio.html">
+            <div class="item">materias</div>
+        </a>
+        <a href="materialmat.html">
+            <div class="item">material</div>
+        </a>
+        <a href="projeto.html">
+            <div class="item">projetos</div>
+        </a>
+        <a href="biblioteca.html">
+            <div class="item">biblioteca</div>
+        </a>
+    </div>
+    <div class="backgroud">
+        <div class=" intro">
+            <h1>Matemática</h1>
+            <p>​A matemática é uma disciplina fundamental para o nosso dia a dia, mesmo que muitas pessoas acreditem que
+                ela seja algo distante do cotidiano. Na verdade, a matemática está presente em diversas situações do
+                nosso dia a dia, desde coisas simples como contar dinheiro até cálculos complexos para a construção de
+                pontes e edifícios.
+                Através da matemática, podemos fazer cálculos para planejar nossas finanças, realizar compras, medir e
+                calcular áreas, volumes e distâncias, entender e interpretar dados estatísticos, resolver problemas e
+                tomar decisões de forma mais racional e precisa.
+                Além disso, a matemática desenvolve habilidades importantes, como o raciocínio lógico, a capacidade de
+                resolução de problemas, a organização e a disciplina. Portanto, mesmo que a matemática possa parecer
+                difícil para algumas pessoas, é importante reconhecer a sua relevância para a nossa vida diária e buscar
+                formas de aprimorar nossos conhecimentos na área.</p>
+            <hr>
+        </div>
+        <div class="cont">
+            <h1>Introdução</h1>
+            <h3>Assunto: Funções matemáticas.</h3>
+            <div class="control">
+                <p>
+                    Neste vídeo, você terá a oportunidade de aprofundar seu entendimento sobre as funções da matemática
+                    e como ela desempenha um papel fundamental em diversas áreas de nossas vidas. Além disso, você terá
+                    a chance de aprender os conceitos básicos dessa disciplina essencial. Prepare-se para explorar o
+                    mundo da matemática e descobrir como suas aplicações impactam nosso cotidiano de maneiras
+                    surpreendentes.</p>
+                <div class="video-materia">
+                    <video width="100%" height="100%" controls="controls">
+                        <source src="funçoes matematica.mp4" type="video/mp4">
+                        <object data="" width="320" height="240">
+                            <embed width="320" height="240" src="funçoes matematica.mp4">
+                        </object>
+                    </video>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-materias">
+        <div class="title">
+            <h2>Modulo:</h2>
+        </div><!--title-->
+        <div class="Caixa">
+            <div class="card">
+                <i class="fa fa-edit"></i>
+                <h4>
+                    Módulo 1: Introdução à Matemática</h4>
+                <p>Neste primeiro módulo, vamos mergulhar no fascinante mundo da matemática e explorar seus conceitos
+                    fundamentais. A matemática é uma disciplina essencial que permeia diversas áreas do conhecimento e
+                    desempenha um papel fundamental em nossas vidas diárias.</p>
+                <a href="matematica.html" target="_blank"><button class="btn">Saiba mais</button></a>
+            </div><!--card-->
+            <div class="card">
+                <i class="fa fa-edit"></i>
+                <h4>Módulo 2: Álgebra e Equações</h4>
+                <p>A álgebra é uma parte fundamental da matemática que nos permite descrever relações e padrões usando
+                    símbolos e letras. Você aprenderá sobre expressões algébricas, simplificação de termos, identidades
+                    algébricas e operações com polinômios.
+                    Vamos mergulhar no mundo das equações e aprender a resolver equações lineares e quadráticas.</p>
+                <a href="modulo2mat.html" target="_blank"><button class="btn">Saiba mais</button></a>
+            </div><!--card-->
+            <div class="card">
+                <i class="fa fa-edit"></i>
+                <h4>Módulo 3: Geometria e Trigonometria</h4>
+                <p>A geometria é a área da matemática que estuda as formas, tamanhos, posições e propriedades dos
+                    objetos. Você aprenderá sobre os elementos básicos da geometria, como pontos, linhas, segmentos,
+                    ângulos e figuras geométricas. Vamos explorar as propriedades e relações desses elementos,
+                    aplicando-as na resolução de problemas práticos e teóricos.</p>
+                <a href="modulo3mat.html" target="_blank"><button class="btn">Saiba mais</button></a>
+            </div><!--card-->
+        </div><!---caixa-->
+    </div>
+    <!--script do navbar-->
+    <script>var el = document.getElementById('menu'); // elemento alvo
+        var numPx = '250'; // Quantidade de pixels a contar do TOP até definir a cor
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > numPx) {
+                el.classList.add('mudaCor'); // adiciona classe "mudaCor"
+            } else {
+                el.classList.remove('mudaCor'); // remove classe "mudaCor"
+            }
+        });</script>
+</body>
+
+</html>

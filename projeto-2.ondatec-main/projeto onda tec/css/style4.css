@@ -1,0 +1,33 @@
+/*//ESTILO DO navbar//*/
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Saira Condensed', sans-serif;
+}
+
+/* Define o menu */
+#menu img {
+   margin: 7px 10px;
+   float: right;
+}
+
+#menu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 60px;
+   transition: background-color 0.3s ease-in-out;
+
+}
+
+#menu .item {
+   display: inline-block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   margin-top: 3px;
+}

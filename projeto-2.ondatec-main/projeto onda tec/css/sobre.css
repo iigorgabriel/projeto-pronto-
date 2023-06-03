@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+* {
+   font-family: 'Saira Condensed', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+html {
+   background-color: #000000;
+   background-size: cover;
+   color: #fff;
+}
+
+.section {
+   height: 100vh;
+}
+.logop {
+   width: 100%;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   left: 0;
+   background-repeat: no-repeat;
+
+}
+/* Define o menu */
+#menu img {
+   margin: 7px 10px;
+   float: right;
+}
+#menu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   border-bottom: 3px solid whitesmoke;
+   transition: background-color 0.3s ease-in-out;
+}
+#menu .item {
+   display: inline-block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   margin: 7px 10px;
+   margin-top: 3px;
+}
+#menu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   border-bottom: 3px solid rgba(54,173,120,1);
+   transition: background-color 0.3s ease-in-out;
+}
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.mudaCor {
+   background-color: #00071a;
+   color: white;
+}
+#body-wrapper {
+   margin-top: 0px;
+
+}
+.dropdown {
+   position: relative;
+   display: inline-block;
+
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   padding: 12px 16px;
+   z-index: 1;
+   border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown span {
+   text-decoration: none;
+   color: white;
+}
+.dropdown a {
+   text-decoration: none;
+   color: black;
+}
+.dropdown a:hover p {
+   background-color: #00071a;
+   border-radius: 4px;
+   color: white;
+}
+.linha-vertical {
+   height: 250px;
+   border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+   margin-left: 180px;
+   margin-top: -220px;
+}
+.texto1{
+   margin-top: 120px;
+   margin-left: 220px;
+}
+.texto2{
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}

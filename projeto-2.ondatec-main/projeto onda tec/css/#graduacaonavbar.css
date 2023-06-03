@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+* {
+   font-family: 'Saira Condensed', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+.texto-apoio span{
+         color: rgba(54,173,120,1);
+}
+.texto-mapa span{
+   color: rgba(54,173,120,1);
+}
+html {
+   background-color: #000000;
+   background-size: cover;
+   color: #fff;
+}
+.section-mapa img {
+   display: flex;
+   width: 700px;
+   margin-top: 2px;
+   display: flex;
+   margin-left: 00px;
+}
+.section-mapa h1 {
+   display: flex;
+   margin-left: 450px;
+   align-items: center;
+   font-size: 70px;
+   margin-left: 100px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-mapa h2 {
+   display: flex;
+   margin-left: 450px;
+   align-items: center;
+   margin-left: 100px;
+   font-size: 25px;
+   color:rgba(246,255,103,1);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+   height: 100vh;
+}
+
+.texto-mapa {
+   display: flex;
+}
+
+.texto-apoio {
+   display: flex;
+}
+
+.texto-mapa img p {
+   display: inline-block;
+}
+
+.texto-mapa p {
+   margin-left: 20px;
+   font-size: 22px;
+   margin-top: 100px;
+   display: inline-block;
+   width: 700px;
+   text-align: center;
+}
+
+/*/tela de apoie a causa /*/
+.backgroud-apoio{
+   background-color: #080808;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.section-apoio h1 {
+   display: flex;
+   margin-left: 100px;
+   font-size: 70px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-apoio h2 {
+   display: flex;
+   margin-left: 100px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgba(246,255,103,1);
+}
+.section-apoio h3{
+   margin-left: 100px;
+   font-size: 17px;
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.btn-saiba {
+   background-color: #5e9188;
+   color: white;
+   text-transform: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+   letter-spacing: 1px;
+   margin-top: 470px;
+   margin-left: -330%;
+}
+.btn-saiba:hover {
+   background-color: transparent;
+   border: 2px solid rgb(0, 9, 32);
+}
+.texto-apoio p {
+   margin-left: 10px;
+   font-size: 20px;
+   margin-top: 30px;
+   display: inline-block;
+   width: 700px;
+   text-align: center;
+}
+.btn-apoio {
+   background-color: #5e9188;
+   color: white;
+   text-transform: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 15px 50px;
+   border-radius: 30px;
+   transition: .4s;
+   letter-spacing: 1px;
+   margin-top: 400px;
+   margin-left: -280%;
+}
+
+.btn-apoio:hover {
+   background-color: transparent;
+   border: 2px solid rgb(0, 9, 32);
+}
+.section-apoio img {
+   width: 600px;
+   margin-left: 70px;
+}
+/*//final apoio/*/
+
+.logop {
+   /*/////fundo onda tec/////*/
+   width: 100%;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   left: 0;
+   background-repeat: no-repeat;
+}
+
+
+
+/* Define o menu */
+#menu img {
+   margin: 7px 10px;
+   float: right;
+}
+#menu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   border-bottom: 3px solid rgba(54,173,120,1);
+   transition: background-color 0.3s ease-in-out;
+}
+
+#menu .item {
+   display: inline-block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   margin: 7px 10px;
+   margin-top: 3px;
+}
+
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.mudaCor {
+   background-color:rgba(54,173,120,1);
+
+}
+ 

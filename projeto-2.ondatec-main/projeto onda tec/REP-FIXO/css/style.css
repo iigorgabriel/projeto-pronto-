@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ .container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ header{
+    background-color: black;
+    width: 100%; 
+    padding: 10px;
+ }
+ .logo{
+    width: 50%; 
+ }
+ .menu{
+    width: 50%;
+ }
+ .menu nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-right: 30px;
+ }
+ a::after{
+    content: " ";
+    width: 30px;
+    height: 30px;
+    background-image: rgb(113, 241, 255);
+    position: relative; 
+ }
+ a{ 
+    border-bottom: #ffffff;
+    border-radius: 8px ; 
+    cursor: pointer;
+ }
+ 
+ 
+ 
+ 

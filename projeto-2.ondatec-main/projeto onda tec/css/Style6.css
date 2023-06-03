@@ -1,0 +1,32 @@
+* {
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+ }
+ html {
+    background-color: #000000;
+    background-size: cover;
+    color: #fff;
+ }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #fffdfd;
+    margin-top: 80px;
+}
+.texto1{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: rgb(14, 70, 175);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
